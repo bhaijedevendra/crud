@@ -113,7 +113,6 @@ function onDelete(e) {
 // cl(setArray)
 localStorage.setItem("setUserInfo",JSON.stringify(setArray))
 templating(setArray);
-window.location.reload()
 }
 
 function templating(e) {
